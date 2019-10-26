@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0BC2FF236459F300AA9CB7 /* RoomName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0BC2FE236459F300AA9CB7 /* RoomName.swift */; };
+		BA0BC30123646A2100AA9CB7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0BC30023646A2100AA9CB7 /* ChatViewController.swift */; };
+		BA248DB623624AAC003CFB3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA248DB523624AAC003CFB3C /* GoogleService-Info.plist */; };
+		BA248DB82362697A003CFB3C /* HomeVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA248DB72362697A003CFB3C /* HomeVCViewController.swift */; };
 		BAAA28D22361FD8100F067A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA28D12361FD8100F067A0 /* AppDelegate.swift */; };
 		BAAA28D42361FD8100F067A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA28D32361FD8100F067A0 /* SceneDelegate.swift */; };
 		BAAA28D62361FD8100F067A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA28D52361FD8100F067A0 /* ViewController.swift */; };
 		BAAA28D92361FD8100F067A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAA28D72361FD8100F067A0 /* Main.storyboard */; };
 		BAAA28DB2361FD8200F067A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAA28DA2361FD8200F067A0 /* Assets.xcassets */; };
 		BAAA28DE2361FD8200F067A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAA28DC2361FD8200F067A0 /* LaunchScreen.storyboard */; };
+		BAAA28E62361FF7100F067A0 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAA28E52361FF7100F067A0 /* CustomCell.swift */; };
+		BFF4DA303927995BCC0DD2A1 /* Pods_WEChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA5DBD667EBA5DC321CB34D /* Pods_WEChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EAD8242AEC565DD79CE76C2 /* Pods-WEChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEChat.debug.xcconfig"; path = "Target Support Files/Pods-WEChat/Pods-WEChat.debug.xcconfig"; sourceTree = "<group>"; };
+		9BA5DBD667EBA5DC321CB34D /* Pods_WEChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WEChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0BC2FE236459F300AA9CB7 /* RoomName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomName.swift; sourceTree = "<group>"; };
+		BA0BC30023646A2100AA9CB7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BA248DB523624AAC003CFB3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA248DB72362697A003CFB3C /* HomeVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCViewController.swift; sourceTree = "<group>"; };
 		BAAA28CE2361FD8100F067A0 /* WEChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAA28D12361FD8100F067A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAAA28D32361FD8100F067A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,8 @@
 		BAAA28DA2361FD8200F067A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAAA28DD2361FD8200F067A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAAA28DF2361FD8200F067A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAA28E52361FF7100F067A0 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		CE8FC93BCF86F2552EBDCA0E /* Pods-WEChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEChat.release.xcconfig"; path = "Target Support Files/Pods-WEChat/Pods-WEChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF4DA303927995BCC0DD2A1 /* Pods_WEChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B6599282243853F2DA160C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BA5DBD667EBA5DC321CB34D /* Pods_WEChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		857EBDF7E2DCFF11A63B8AF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EAD8242AEC565DD79CE76C2 /* Pods-WEChat.debug.xcconfig */,
+				CE8FC93BCF86F2552EBDCA0E /* Pods-WEChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA248DB223620693003CFB3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BAAA28D52361FD8100F067A0 /* ViewController.swift */,
+				BA248DB72362697A003CFB3C /* HomeVCViewController.swift */,
+				BA0BC30023646A2100AA9CB7 /* ChatViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA248DB3236206A2003CFB3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAAA28E52361FF7100F067A0 /* CustomCell.swift */,
+				BA0BC2FE236459F300AA9CB7 /* RoomName.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA248DB4236206AE003CFB3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAAA28D72361FD8100F067A0 /* Main.storyboard */,
+				BAAA28DA2361FD8200F067A0 /* Assets.xcassets */,
+				BAAA28DC2361FD8200F067A0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BAAA28C52361FD8100F067A0 = {
 			isa = PBXGroup;
 			children = (
 				BAAA28D02361FD8100F067A0 /* WEChat */,
 				BAAA28CF2361FD8100F067A0 /* Products */,
+				857EBDF7E2DCFF11A63B8AF3 /* Pods */,
+				2B6599282243853F2DA160C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +121,11 @@
 			children = (
 				BAAA28D12361FD8100F067A0 /* AppDelegate.swift */,
 				BAAA28D32361FD8100F067A0 /* SceneDelegate.swift */,
-				BAAA28D52361FD8100F067A0 /* ViewController.swift */,
-				BAAA28D72361FD8100F067A0 /* Main.storyboard */,
-				BAAA28DA2361FD8200F067A0 /* Assets.xcassets */,
-				BAAA28DC2361FD8200F067A0 /* LaunchScreen.storyboard */,
+				BA248DB223620693003CFB3C /* Controller */,
+				BA248DB3236206A2003CFB3C /* Model */,
+				BA248DB4236206AE003CFB3C /* View */,
 				BAAA28DF2361FD8200F067A0 /* Info.plist */,
+				BA248DB523624AAC003CFB3C /* GoogleService-Info.plist */,
 			);
 			path = WEChat;
 			sourceTree = "<group>";
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAAA28E22361FD8200F067A0 /* Build configuration list for PBXNativeTarget "WEChat" */;
 			buildPhases = (
+				FD1B54FF9B87CB08B8EEAB6E /* [CP] Check Pods Manifest.lock */,
 				BAAA28CA2361FD8100F067A0 /* Sources */,
 				BAAA28CB2361FD8100F067A0 /* Frameworks */,
 				BAAA28CC2361FD8100F067A0 /* Resources */,
+				52AEB9007C6EC9459428BF37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +191,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAAA28DE2361FD8200F067A0 /* LaunchScreen.storyboard in Resources */,
+				BA248DB623624AAC003CFB3C /* GoogleService-Info.plist in Resources */,
 				BAAA28DB2361FD8200F067A0 /* Assets.xcassets in Resources */,
 				BAAA28D92361FD8100F067A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52AEB9007C6EC9459428BF37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WEChat/Pods-WEChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WEChat/Pods-WEChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WEChat/Pods-WEChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1B54FF9B87CB08B8EEAB6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WEChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAAA28CA2361FD8100F067A0 /* Sources */ = {
@@ -140,6 +248,10 @@
 			files = (
 				BAAA28D62361FD8100F067A0 /* ViewController.swift in Sources */,
 				BAAA28D22361FD8100F067A0 /* AppDelegate.swift in Sources */,
+				BA0BC2FF236459F300AA9CB7 /* RoomName.swift in Sources */,
+				BA0BC30123646A2100AA9CB7 /* ChatViewController.swift in Sources */,
+				BA248DB82362697A003CFB3C /* HomeVCViewController.swift in Sources */,
+				BAAA28E62361FF7100F067A0 /* CustomCell.swift in Sources */,
 				BAAA28D42361FD8100F067A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +394,7 @@
 		};
 		BAAA28E32361FD8200F067A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAD8242AEC565DD79CE76C2 /* Pods-WEChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +407,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Mohamed-osama.WEChat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BAAA28E42361FD8200F067A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8FC93BCF86F2552EBDCA0E /* Pods-WEChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Mohamed-osama.WEChat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
